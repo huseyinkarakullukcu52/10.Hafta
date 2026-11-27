@@ -1,0 +1,4 @@
+{
+    "chat.editor.preferCopilotHarness": false,
+    "dotnet.copilot.enableDotnetSkills": false
+}
