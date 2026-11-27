@@ -21,9 +21,16 @@
         div{
             background:linear-gradient(to right, red,white,blue,purple);
             padding: 10px;
+            border-radius: 10px;
+            width: 500px;
+            color: white;
         }
         div:hover{
-            
+            width: 1000px;
+            cursor: pointer;
+            transition-property: width;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
         }
     </style>
 </head>
